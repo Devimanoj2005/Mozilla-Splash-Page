@@ -26,26 +26,26 @@ body {
 
 .hero p {
     font-size: 1.2rem;
-    opacity: 0.95;
 }
 
-/* MAIN CONTAINER */
+/* MAIN LAYOUT */
 .container {
     max-width: 1000px;
     margin: 40px auto;
     padding: 0 20px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 30px;
 }
 
-/* CARD STYLE */
+/* CARD DESIGN */
 .card {
     background-color: #1e293b;
     padding: 25px;
     border-radius: 16px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.3);
     transition: transform 0.3s ease;
+    text-align: center;
 }
 
 .card:hover {
@@ -57,12 +57,14 @@ body {
     color: #ff7139;
 }
 
-.card img {
-    width: 120px;
-    display: block;
+/* LOGO */
+.logo {
+    width: 130px;
     margin: 20px auto;
+    display: block;
 }
 
+/* TEXT */
 .card p {
     font-size: 1rem;
     color: #cbd5f5;
